@@ -5,61 +5,81 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.main{
-    background: linear-gradient(rgb(255, 255, 255), rgb(1, 85, 212));
-    /* background: linear-gradient(rgb(255, 255, 255), rgb(186, 106, 31)); */
-    height: 100vh;
-}
-
 .navbar{
-    display: flex;
-    flex-direction: column;
-    /* background-color: aqua; */
+    /* background-color: antiquewhite; */
 }
 
 .container-fluid{
-    /* background-color: aqua; */
-    width: 76%;
-    padding: 1vw;
-    /* border: 0.2vw solid rgb(13, 86, 196); */
-    /* border-radius: 0.8vw; */
-    margin-top: 0.5vw;
+    /* background-color: blue; */
     display: flex;
 }
 
-.navbar-brand{
+.navbar-nav{    
+    /* background-color: aquamarine; */
+    margin: auto;
+    width: 80%;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.nav-item{
+    /* background-color: yellowgreen; */
+    margin: 0.5vw;
+    font-size: 1.3vw;
+    font-weight: 600;
+}
+
+.nav-link{
+    /* background-color: blueviolet; */
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+}
+
+.nav-link .active{
+    text-decoration: underline;
+}
+
+/* .container-fluid{
+    width: 76%;
+    padding: 0.5vw;
+    margin-top: 0.5vw;
+    display: flex;
+} */
+
+/* .navbar-brand{
     margin: auto;
     color: rgb(10, 84, 196);
-    /* color: rgb(99, 48, 0); */
+    color: rgb(207, 184, 32);
     width: 14vw;
     font-weight: 600;
     font-size: 1.3vw;
     display: flex;
     justify-content: center;
-    /* background-color: aqua; */
-}
+    background-color: aqua;
+} */
 
-.line-under-navtext{
+/* .line-under-navtext{
     width: 76%;
+} */
+
+.short-intro{
+    background: linear-gradient(rgb(255, 255, 255), antiquewhite);
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: auto;
 }
 
 .my-photo{
-    position: relative;
-}
-
-.photo-holder{
-    width: 35vw;
-    margin-left: 6vw;
-    background-color: black;
-    position: absolute;
-    z-index: 1;
+    /* background-color: blueviolet; */
 }
 
 .photo-only{
-    z-index: 2;
+    
 }
 
 .the-photo{
-    width: 35vw;
-    margin-left: 10vw;
+    width: 20vw;
 }

@@ -2,6 +2,14 @@
 $body-bg: #f8fafc;
 
 // Typography
-$font-family-sans-serif: 'Nunito', sans-serif;
+$font-family-sans-serif: 'Montserrat', sans-serif;
 $font-size-base: 0.9rem;
 $line-height-base: 1.6;
+
+$container-max-widths: (
+  sm: 27vw,
+  md: 36vw,
+  lg: 480vw,
+  xl: 57vw,
+  xxl: 66vw
+);
