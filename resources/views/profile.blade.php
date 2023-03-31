@@ -81,7 +81,7 @@
             </li>
           </div>
           <br>
-          
+          <div class="amdesc-sect2"></div>
           <div class="amdesc-sect3"> 
             <li>However, this style only applies to immediate child elements.</li>
             <li>Nested lists:
