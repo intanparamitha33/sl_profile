@@ -29,7 +29,7 @@
                 <a class="nav-link active" aria-current="page" style="color: antiquewhite" href="#short-intro">Short Intro</a>
               </li>  
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" style="color: rgb(55, 182, 255)" href="#hobbies">Hobbies</a>
+                <a class="nav-link active" aria-current="page" style="color: rgb(100, 194, 249)" href="#hobbies">Hobbies</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" style="color: rgb(195, 139, 251)" href="#skills">Skills</a>
@@ -38,45 +38,74 @@
                 <a class="nav-link active" aria-current="page" style="color: rgb(255, 225, 125)" href="#experiences">Experiences</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" style="color: rgb(255, 106, 208)" href="#lovers">Lovers</a>
+                <a class="nav-link active" aria-current="page" style="color: rgb(255, 116, 211)" href="#lovers">Lovers</a>
               </li>
             </ul>
           {{-- </div> --}}
         </div>
       </nav>
-    {{-- <nav class="navbar sticky-top bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#short-intro">Short Intro</a>
-          <a class="navbar-brand" href="#hobbies">Hobbies</a>
-          <a class="navbar-brand" href="#skills">Skills</a>
-          <a class="navbar-brand" href="#life-experiences">Life Experiences</a>
-          <a class="navbar-brand" href="#lovers">Lovers</a>
-        </div>
-
-        <div class="line-under-navtext" style="border: 0.11vw solid rgb(26, 26, 26)"></div>
-    </nav> --}}
     
-    <div class="short-intro">
+    <div class="pre-intro">
         <div class="my-photo">
-            <div class="photo-holder"></div>
+            {{-- <div class="photo-holder"></div> --}}
             <div class="photo-only">
                 <img class="the-photo" src="assets/my_photo.png" alt="Author's Photo">
             </div>
         </div>
-        <div class="my-introduction">
-            <h1 class="welcoming" style="font-size: 3vw; font-weight: 700">안녕하세요~</h1>
+        <div class="greeting">
+            <h1 style="font-weight: 600; width: 24vw">안녕하세요 여러분~</h1>
+            <p class="fs-3" style="">Hello, everyone~</p>
+        </div>
+        <div class="spongebob-si" style="margin: 1vw">
+            <img class="spongebob-photo" style="width: 92%" src="assets/spongebob_sect1.png" alt="Spongebob's Photo">
         </div>
     </div>
-    <div class="hobbies" style="background-color: blueviolet">
+
+    <div class="short-intro">
+      <h2>
+        Some things
+        <small class="text-body-secondary" style="opacity: 70%">you need to know</small>
+        about me
+      </h2>
+      <dl class="row">
+        <dt class="col-sm-3">Description lists</dt>
+        <dd class="col-sm-9">A description list is perfect for defining terms.</dd>
+      
+        <dt class="col-sm-3">Term</dt>
+        <dd class="col-sm-9">
+          <p>Definition for the term.</p>
+          <p>And some more placeholder definition text.</p>
+        </dd>
+      
+        <dt class="col-sm-3">Another term</dt>
+        <dd class="col-sm-9">This definition is short, so no extra paragraphs or anything.</dd>
+      
+        <dt class="col-sm-3 text-truncate">Truncated term is truncated</dt>
+        <dd class="col-sm-9">This can be useful when space is tight. Adds an ellipsis at the end.</dd>
+      
+        <dt class="col-sm-3">Nesting</dt>
+        <dd class="col-sm-9">
+          <dl class="row">
+            <dt class="col-sm-4">Nested definition list</dt>
+            <dd class="col-sm-8">I heard you like definition lists. Let me put a definition list inside your definition list.</dd>
+          </dl>
+        </dd>
+      </dl>
+    </div>
+    
+    <div class="hobbies">
 
     </div>
-    <div class="skills" style="background-color: violet">
+
+    <div class="skills">
 
     </div>
-    <div class="experiences" style="background-color: pink">
+
+    <div class="experiences">
 
     </div>
-    <div class="lovers" style="background-color: peachpuff">
+
+    <div class="lovers">
 
     </div>
 </body>

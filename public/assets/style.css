@@ -41,35 +41,12 @@
     text-decoration: underline;
 }
 
-/* .container-fluid{
-    width: 76%;
-    padding: 0.5vw;
-    margin-top: 0.5vw;
-    display: flex;
-} */
-
-/* .navbar-brand{
-    margin: auto;
-    color: rgb(10, 84, 196);
-    color: rgb(207, 184, 32);
-    width: 14vw;
-    font-weight: 600;
-    font-size: 1.3vw;
-    display: flex;
-    justify-content: center;
-    background-color: aqua;
-} */
-
-/* .line-under-navtext{
-    width: 76%;
-} */
-
-.short-intro{
-    background: linear-gradient(rgb(255, 255, 255), antiquewhite);
+.pre-intro{
+    background: linear-gradient(rgb(255, 255, 255), rgb(255, 228, 194));
     display: flex;
     align-items: center;
-    width: 100%;
-    height: auto;
+    /* width: 100%; */
+    /* height: auto; */
 }
 
 .my-photo{
@@ -81,5 +58,20 @@
 }
 
 .the-photo{
-    width: 20vw;
+    width: 23vw;
+    margin-left: 3vw;
+}
+
+.spongebob-si{
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+}
+
+.short-intro{
+    background: linear-gradient(rgb(255, 228, 194), rgb(100, 194, 249));
+    display: flex;
+    align-items: center;
+    /* width: 100%; */
+    /* height: auto; */
 }
