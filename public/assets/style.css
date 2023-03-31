@@ -5,17 +5,11 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.navbar{
-    /* background-color: antiquewhite; */
-}
-
 .container-fluid{
-    /* background-color: blue; */
     display: flex;
 }
 
-.navbar-nav{    
-    /* background-color: aquamarine; */
+.navbar-nav{
     margin: auto;
     width: 80%;
     justify-content: space-evenly;
@@ -27,10 +21,6 @@
     margin: 0.5vw;
     font-size: 1.3vw;
     font-weight: 600;
-}
-
-.nav-link{
-    /* background-color: blueviolet; */
 }
 
 .nav-link:hover{
@@ -45,16 +35,8 @@
     background: linear-gradient(rgb(255, 255, 255), rgb(255, 228, 194));
     display: flex;
     align-items: center;
-    /* width: 100%; */
-    /* height: auto; */
-}
-
-.my-photo{
-    /* background-color: blueviolet; */
-}
-
-.photo-only{
-    
+    width: 100%;
+    height: auto;
 }
 
 .the-photo{
@@ -68,10 +50,26 @@
     justify-content: center;
 }
 
-.short-intro{
+#about-me{
     background: linear-gradient(rgb(255, 228, 194), rgb(100, 194, 249));
-    display: flex;
-    align-items: center;
-    /* width: 100%; */
-    /* height: auto; */
+    overflow-x: hidden;
+}
+
+.line-1{
+    border: 0.2vw solid black;
+    /* box-shadow: 2vw; */
+    border-radius: 1vw;
+    width: 80%;
+    opacity: 50%;
+}
+
+.intro-desc{
+    /* background-color: brown; */
+    /* height: 89.5vh; */
+    height: auto;
+    padding: 2vw 8vw;
+}
+
+#span-text{
+    font-weight: 700;
 }
