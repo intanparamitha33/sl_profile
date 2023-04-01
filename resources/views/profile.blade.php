@@ -62,14 +62,14 @@
     </div>
 
     <div id="about-me">
-      <div class="line-container" style="display: flex; justify-content: space-around; margin: 3vw 0vw">
+      <div class="line-container d-flex justify-content-around" style="margin: 3vw 0vw">
         <div class="line-1"></div>
       </div>
       <div class="intro-desc">
         <h2 class="fw-bold fst-italic text-center text-black py-1">
           Some things
           <small class="text-body-secondary" style="opacity: 50%">you need to know</small>
-          about me
+          About Me
         </h2>
         
         {{-- Short Introduction --}}
@@ -229,8 +229,39 @@
     </div>
     
     <div id="hobbies">
-      <div class="line-container" style="display: flex; justify-content: space-around; margin: 3vw 0vw">
+      <div class="line-container d-flex justify-content-around" style="margin: 3vw 0vw">
         <div class="line-1"></div>
+      </div>
+      <div class="hobbies-desc">
+        <h2 class="fw-bold fst-italic text-center text-white">
+          <small class="text-body-secondary" style="opacity: 50%">When life gets tough,</small>
+          <br>
+          <small class="text-body-secondary" style="opacity: 50%">I deal with it by doing</small>
+          My Hobbies
+        </h2>
+        <div class="list-hobbies d-flex justify-content-around">
+          <div class="card m-5 mt-4 p-3" style="background-color:rgba(255, 255, 255, 0); border: 0.15vw solid white">
+            <img src="assets/hobbies_music.jpg" class="card-img-top" alt="1st Hobby - Music">
+            <div class="card-body">
+              <h5 class="card-title fw-bold"><u>Music</u></h5>
+              <p class="card-text" style="font-weight: 500">I love to sing, can play the guitar a bit, and really want to learn a lot of music instruments.</p>
+            </div>
+          </div>
+          <div class="card m-5 mt-4 p-3" style="background-color:rgba(255, 255, 255, 0); border: 0.15vw solid white">
+            <img src="assets/hobbies_watching.png" class="card-img-top" alt="2nd Hobby - Watching">
+            <div class="card-body">
+              <h5 class="card-title fw-bold"><u>Watching</u></h5>
+              <p class="card-text" style="font-weight: 500">When I have free time, I like to watch action or fantasy movies.</p>
+            </div>
+          </div>
+          <div class="card m-5 mt-4 p-3" style="background-color:rgba(255, 255, 255, 0); border: 0.15vw solid white">
+            <img src="assets/hobbies_reading.jpg" class="card-img-top" alt="3rd Hobby - Reading">
+            <div class="card-body">
+              <h5 class="card-title fw-bold"><u>Reading</u></h5>
+              <p class="card-text" style="font-weight: 500">Loved many of Tere Liye's works. Still love the analysis in Sherlock Holmes and Conan.</p>
+            </div>
+          </div>
+        </div>
       </div>
       {{-- <li>However, this style only applies to immediate child elements.</li>
       <li>Nested lists:
