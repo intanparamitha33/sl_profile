@@ -32,7 +32,7 @@
 }
 
 .pre-intro{
-    background: linear-gradient(rgb(255, 255, 255), rgb(255, 228, 194));
+    background: linear-gradient(rgb(255, 255, 255), rgb(249, 225, 195));
     display: flex;
     align-items: center;
     width: 100%;
@@ -50,25 +50,27 @@
 }
 
 #about-me{
-    background: linear-gradient(rgb(255, 228, 194), rgb(100, 194, 249));
+    background: linear-gradient(rgb(249, 225, 195), rgb(100, 194, 249));
     overflow-x: hidden;
 }
 
 .line-1{
     border: 0.2vw solid black;
-    /* box-shadow: 2vw; */
     border-radius: 1vw;
-    width: 80%;
+    width: 70%;
     opacity: 50%;
 }
 
 .intro-desc{
-    /* background-color: brown; */
-    /* height: 89.5vh; */
     height: auto;
-    padding: 2vw 8vw;
+    padding: 1vw 7vw;
 }
 
 #span-text{
     font-weight: 700;
+}
+
+#hobbies{
+    background: linear-gradient(rgb(100, 194, 249), rgb(195, 139, 251));
+    overflow-x: hidden;
 }

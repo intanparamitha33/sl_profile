@@ -26,7 +26,7 @@
           <div class="collapse navbar-collapse" id="navbarNav"> --}}
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" style="color: antiquewhite" href="#about-me">About Me</a>
+                <a class="nav-link active" aria-current="page" style="color: rgb(249, 225, 195)" href="#about-me">About Me</a>
               </li>  
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" style="color: rgb(100, 194, 249)" href="#hobbies">Hobbies</a>
@@ -66,39 +66,181 @@
         <div class="line-1"></div>
       </div>
       <div class="intro-desc">
-        <h2 style="font-weight: 700">
+        <h2 class="fw-bold fst-italic text-center text-black py-1">
           Some things
-          <small class="text-body-secondary" style="opacity: 60%">you need to know</small>
+          <small class="text-body-secondary" style="opacity: 50%">you need to know</small>
           about me
         </h2>
-        <ul class="list-unstyled" style="font-weight: 500; font-size: 1.2vw">
-          <div class="amdesc-sect1">
-            <li>My name is <span id="span-text">Intan Paramitha</span>. My full name is quite long, but my nickname is so simple, <span id="span-text">IP</span>.</li>
+        
+        {{-- Short Introduction --}}
+        <div class="amdesc-sect1 text-center">
+          <ul class="list-unstyled" style="font-weight: 500; font-size: 1.1vw">
+            <li style="font-size: 1.2vw">My name is <span id="span-text">Intan Paramitha</span>.</li>
+            <br>
             <li>
-              I just turned <span id="span-text">20 years old</span> this year, precisely on <span id="span-text">March 27th</span>.
+              I am a <span id="span-text">20 years old</span> college student who has the ability to manage a work and communicate within a team.
               <br>
-              Just now, I already told you about my birthday!
+              <span id="span-text">My goal</span> is seeking experiences in Computer Science, especially in <span id="span-text">UI/UX Design</span> or <span id="span-text">Web Programming</span> field.
+              <br>
+              I am <span id="span-text">a learner</span> of some programming languages such as <span id="span-text">HTML, CSS, C, PHP, Python, and SQL</span>. 
+              <br>
+              I <span id="span-text">participated in organizations</span> that connect me with the others and accomodate my hobbies.
             </li>
+          </ul>
+        </div>
+
+        {{-- Education History --}}
+        <div class="amdesc-sect2" style="padding: 2vw">
+          <h3 class="fw-bold text-center text-black py-3" style="margin: 1vw 0vw">
+            History of Education
+          </h3>
+          {{-- Timeline 1 --}}
+          <div class="row">
+            <div class="col-auto text-center flex-column d-none d-sm-flex">
+              <div class="row h-50">
+                <div class="col">&nbsp;</div>
+                <div class="col">&nbsp;</div>
+              </div>
+              <h5 class="m-2">
+                <span class="badge rounded-circle bg-light border">&nbsp;</span>
+              </h5>
+              <div class="row h-50">
+                <div class="col border-end">&nbsp;</div>
+                <div class="col">&nbsp;</div>
+              </div>
+            </div>
+            <div class="col py-2">
+              <div class="card">
+                <div class="card-body">
+                  <div class="float-end text-muted">2021 - Now</div>
+                  <h4 class="card-title text-black">PPTI BCA (BCA x BINUS University)</h4>
+                </div>
+              </div>
+            </div>
           </div>
-          <br>
-          <div class="amdesc-sect2"></div>
-          <div class="amdesc-sect3"> 
-            <li>However, this style only applies to immediate child elements.</li>
-            <li>Nested lists:
-              <ul>
-                <li>are unaffected by this style</li>
-                <li>will still show a bullet</li>
-                <li>and have appropriate left margin</li>
-              </ul>
-            </li>
-            <li>This may still come in handy in some situations.</li>
+
+          {{-- Timeline 2 --}}
+          <div class="row">
+            <div class="col-auto text-center flex-column d-none d-sm-flex">
+              <div class="row h-50">
+                <div class="col border-end">&nbsp;</div>
+                <div class="col">&nbsp;</div>
+              </div>
+              <h5 class="m-2">
+                <span class="badge rounded-circle bg-light border">&nbsp;</span>
+              </h5>
+              <div class="row h-50">
+                <div class="col border-end">&nbsp;</div>
+                <div class="col">&nbsp;</div>
+              </div>
+            </div>
+            <div class="col py-2">
+              <div class="card">
+                <div class="card-body">
+                  <div class="float-end text-muted">2018 - 2021</div>
+                  <h4 class="card-title text-black">SMA Negeri 4 Denpasar</h4>
+                </div>
+              </div>
+            </div>
           </div>
-        </ul>
+
+          {{-- Timeline 3 --}}
+          <div class="row">
+            <div class="col-auto text-center flex-column d-none d-sm-flex">
+              <div class="row h-50">
+                <div class="col border-end">&nbsp;</div>
+                <div class="col">&nbsp;</div>
+              </div>
+              <h5 class="m-2">
+                <span class="badge rounded-circle bg-light border">&nbsp;</span>
+              </h5>
+              <div class="row h-50">
+                <div class="col border-end">&nbsp;</div>
+                <div class="col">&nbsp;</div>
+              </div>
+            </div>
+            <div class="col py-2">
+              <div class="card">
+                <div class="card-body">
+                  <div class="float-end text-muted">2015 - 2018</div>
+                  <h4 class="card-title text-black">SMP Negeri 10 Denpasar</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {{-- Timeline 4 --}}
+          <div class="row">
+            <div class="col-auto text-center flex-column d-none d-sm-flex">
+              <div class="row h-50">
+                <div class="col border-end">&nbsp;</div>
+                <div class="col">&nbsp;</div>
+              </div>
+              <h5 class="m-2">
+                <span class="badge rounded-circle bg-light border">&nbsp;</span>
+              </h5>
+              <div class="row h-50">
+                <div class="col border-end">&nbsp;</div>
+                <div class="col">&nbsp;</div>
+              </div>
+            </div>
+            <div class="col py-2">
+              <div class="card">
+                <div class="card-body">
+                  <div class="float-end text-muted">2009 - 2015</div>
+                  <h4 class="card-title text-black">SDP Negeri Tulangampiang</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>  
+
+        {{-- Recent Works --}}
+        <div class="amdesc-sect3 text-center"> 
+          <h3 class="fw-bold text-black py-2" style="margin-top: 1vw">
+            <small class="text-body-secondary" style="opacity: 50%">Take a look at my</small> Recent Works
+          </h3>
+          <p class="fw-semibold py-3" style="font-size: 1.2vw">Here is my individual and group projects.</p>
+          <div class="carousel-container d-flex justify-content-center">
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" style="width: 70%">
+              <div class="carousel-inner shadow p-3 mb-5 bg-body rounded">
+                <div class="carousel-item active">
+                  <img src="assets/blib_project.png" class="d-block w-100" alt="B-Lib Project">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/hirabeats_project.png" class="d-block w-100" alt="HiraBeats Project">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/fugemy_project.png" class="d-block w-100" alt="Fugemy Project">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     
     <div id="hobbies">
-
+      <div class="line-container" style="display: flex; justify-content: space-around; margin: 3vw 0vw">
+        <div class="line-1"></div>
+      </div>
+      {{-- <li>However, this style only applies to immediate child elements.</li>
+      <li>Nested lists:
+        <ul>
+          <li>are unaffected by this style</li>
+          <li>will still show a bullet</li>
+          <li>and have appropriate left margin</li>
+        </ul>
+      </li>
+      <li>This may still come in handy in some situations.</li> --}}
     </div>
 
     <div id="skills">
