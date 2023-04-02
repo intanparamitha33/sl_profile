@@ -18,7 +18,7 @@
   {{-- NavBar --}}
   <nav class="navbar sticky-top bg-dark" data-bs-theme="dark">
     <div class="container-fluid d-flex">
-      <ul class="navbar-nav">
+      <ul class="navbar-nav flex-row m-auto justify-content-evenly" style="width: 80%">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" style="color: rgb(249, 213, 169)" href="#introduction">Introduction</a>
         </li>  
@@ -36,18 +36,15 @@
   </nav>   
     
   {{-- Before Introduction --}}
-  <div class="pre-intro">
-    <div class="my-photo">
-        {{-- <div class="photo-holder"></div> --}}
-        <div class="photo-only">
-            <img class="the-photo" src="assets/my_photo.png" alt="Author's Photo">
-        </div>
+  <div class="pre-intro d-flex align-items-center">
+    <div class="photo-only">
+      <img class="the-photo" src="assets/my_photo.png" alt="Author's Photo">
     </div>
     <div class="greeting">
         <h1 style="font-weight: 600; width: 24vw">안녕하세요 여러분~</h1>
         <p class="fs-3" style="">Hello, everyone~</p>
     </div>
-    <div class="spongebob-si" style="margin: 1vw">
+    <div class="spongebob-si d-flex justify-content-center" style="margin: 1vw">
         <img class="spongebob-photo" style="width: 92%" src="assets/spongebob_sect1.png" alt="Spongebob's Photo">
     </div>
   </div>
@@ -332,14 +329,15 @@
       non-academic Experiences.
     </h2>
     {{-- Section Content --}}
-    <div class="exp-desc text-white">
+    <div class="exp-desc text-white text-center mb-5">
       <ul class="list-unstyled py-2" style="font-weight: 500; font-size: 1.2vw; margin: 0vw 7vw">
         <li>
           Apart from academics, I want to continue trying to develop myself <br> by participating in <span id="span-text">organizational activities or events</span>.
         </li>
         <br>
-        <li>Here are some of my experiences:
-          <div class="exp-sect1 d-flex flex-row justify-content-around text-center py-3" style="margin-bottom: 2vw">
+        <li class="text-black">Here are some of my experiences:
+          {{-- Experience 1 and 2 --}}
+          <div class="exp-sect1 d-flex flex-row justify-content-evenly text-center py-3" style="margin-bottom: 2vw">
             <div class="exp-1">
               <p><span id="span-text">Charity Action of RTB - 2023</span><br><em>(as a Part of PIC Koorlan RTB)</em></p>
               <img src="assets/charity_action_of_rtb.jpg" class="rounded mx-auto d-block img-thumbnail" style="height: 18vw" alt="Charity Action of RTB">
@@ -349,8 +347,8 @@
               <img src="assets/rtb_gold_festival.jpg" class="rounded mx-auto d-block img-thumbnail" style="height: 18vw" alt="RTB Gold Festival">
             </div>
           </div>
-          
-          <div class="exp-sect2 d-flex flex-row justify-content-around text-center" style="margin-bottom: 2vw ">
+          {{-- Experience 3 and 4 --}}
+          <div class="exp-sect2 d-flex flex-row justify-content-evenly text-center" style="margin-bottom: 2vw ">
             <div class="exp-3">
               <p><span id="span-text">Egg-Venger Hunt Paskah - 2022</span><br><em>(as a Part of Creative RTB)</em></p>
               <img src="assets/eggvenger_hunt.jpeg" class="rounded mx-auto d-block m-2 img-thumbnail" style="height: 18vw" alt="Egg-Venger Hunt Paskah">
@@ -362,6 +360,22 @@
           </div>
         </li>
       </ul>
+    </div>
+  </div>
+
+  {{-- Footer --}}
+  <div class="card text-center rounded-0 bg-dark text-white">
+    <div class="card-header my-auto">
+      <p class="footer-copyright my-auto">Copyright &copy;2023 All Rights Reserved | Designed by <span id="span-text">Intan Paramitha</span></p>
+    </div>
+    <div class="card-body d-flex flex-column">
+      <p class="card-title">Find Me on</p>
+      <div class="logo-container d-flex justify-content-evenly m-auto" style="width: 12%">
+        <img src="assets/logo_instagram.png" style="height: 2vw" alt="Instagram">
+        <img src="assets/logo_twitter.png" style="height: 2vw" alt="Twitter">
+        <img src="assets/logo_linkedin.png" style="height: 2vw" alt="LinkedIn">
+        <img src="assets/logo_github.png" style="height: 2vw" alt="GitHub">
+      </div>
     </div>
   </div>
 </body>

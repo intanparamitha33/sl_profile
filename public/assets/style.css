@@ -5,13 +5,6 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.navbar-nav{
-    margin: auto;
-    width: 80%;
-    justify-content: space-evenly;
-    flex-direction: row;
-}
-
 .nav-item{
     margin: 0.5vw;
     font-size: 1.3vw;
@@ -22,14 +15,8 @@
     text-decoration: underline;
 }
 
-.nav-link .active{
-    text-decoration: underline;
-}
-
 .pre-intro{
     background: linear-gradient(rgb(255, 255, 255), rgb(249, 213, 169));
-    display: flex;
-    align-items: center;
     width: 100%;
     height: auto;
 }
@@ -37,11 +24,6 @@
 .the-photo{
     width: 23vw;
     margin-left: 3vw;
-}
-
-.spongebob-si{
-    display: flex;
-    justify-content: center;
 }
 
 #introduction{
@@ -76,6 +58,6 @@
 }
 
 #experiences{
-    background: linear-gradient(rgb(255, 178, 238), black);
+    background: linear-gradient(rgb(255, 178, 238), rgb(249, 213, 169));
     overflow-x: hidden;
 }
