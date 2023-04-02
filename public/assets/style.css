@@ -27,7 +27,7 @@
 }
 
 .pre-intro{
-    background: linear-gradient(rgb(255, 255, 255), rgb(249, 225, 195));
+    background: linear-gradient(rgb(255, 255, 255), rgb(249, 213, 169));
     display: flex;
     align-items: center;
     width: 100%;
@@ -45,7 +45,7 @@
 }
 
 #introduction{
-    background: linear-gradient(rgb(249, 225, 195), rgb(100, 194, 249));
+    background: linear-gradient(rgb(249, 213, 169), rgb(100, 194, 249));
     overflow-x: hidden;
 }
 
@@ -71,6 +71,11 @@
 }
 
 #skills{
-    background: linear-gradient(rgb(195, 139, 251), rgb(255, 225, 125));
+    background: linear-gradient(rgb(195, 139, 251), rgb(255, 178, 238));
+    overflow-x: hidden;
+}
+
+#experiences{
+    background: linear-gradient(rgb(255, 178, 238), black);
     overflow-x: hidden;
 }
