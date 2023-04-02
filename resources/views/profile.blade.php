@@ -91,19 +91,19 @@
               <div class="col">&nbsp;</div>
               <div class="col">&nbsp;</div>
             </div>
-            <h5 class="m-2">
+            <p class="m-2">
               <span class="badge rounded-circle bg-light border">&nbsp;</span>
-            </h5>
+            </p>
             <div class="row h-50">
               <div class="col border-end">&nbsp;</div>
               <div class="col">&nbsp;</div>
             </div>
           </div>
           <div class="col py-2">
-            <div class="card">
+            <div class="card" style="height: 4vw">
               <div class="card-body">
                 <div class="float-end text-muted">2021 - Now</div>
-                <h4 class="card-title text-black">PPTI BCA (BCA x BINUS University)</h4>
+                <p class="card-title text-black fw-semibold fs-5">PPTI BCA (BCA x BINUS University)</p>
               </div>
             </div>
           </div>
@@ -116,19 +116,19 @@
               <div class="col border-end">&nbsp;</div>
               <div class="col">&nbsp;</div>
             </div>
-            <h5 class="m-2">
+            <p class="m-2">
               <span class="badge rounded-circle bg-light border">&nbsp;</span>
-            </h5>
+            </p>
             <div class="row h-50">
               <div class="col border-end">&nbsp;</div>
               <div class="col">&nbsp;</div>
             </div>
           </div>
           <div class="col py-2">
-            <div class="card">
+            <div class="card" style="height: 4vw">
               <div class="card-body">
                 <div class="float-end text-muted">2018 - 2021</div>
-                <h4 class="card-title text-black">SMA Negeri 4 Denpasar</h4>
+                <p class="card-title text-black fw-semibold fs-5">SMA Negeri 4 Denpasar</p>
               </div>
             </div>
           </div>
@@ -141,19 +141,19 @@
               <div class="col border-end">&nbsp;</div>
               <div class="col">&nbsp;</div>
             </div>
-            <h5 class="m-2">
+            <p class="m-2">
               <span class="badge rounded-circle bg-light border">&nbsp;</span>
-            </h5>
+            </p>
             <div class="row h-50">
               <div class="col border-end">&nbsp;</div>
               <div class="col">&nbsp;</div>
             </div>
           </div>
           <div class="col py-2">
-            <div class="card">
+            <div class="card" style="height: 4vw">
               <div class="card-body">
                 <div class="float-end text-muted">2015 - 2018</div>
-                <h4 class="card-title text-black">SMP Negeri 10 Denpasar</h4>
+                <p class="card-title text-black fw-semibold fs-5">SMP Negeri 10 Denpasar</p>
               </div>
             </div>
           </div>
@@ -166,19 +166,19 @@
               <div class="col border-end">&nbsp;</div>
               <div class="col">&nbsp;</div>
             </div>
-            <h5 class="m-2">
+            <p class="m-2">
               <span class="badge rounded-circle bg-light border">&nbsp;</span>
-            </h5>
+            </p>
             <div class="row h-50">
               <div class="col border-end">&nbsp;</div>
               <div class="col">&nbsp;</div>
             </div>
           </div>
           <div class="col py-2">
-            <div class="card">
+            <div class="card" style="height: 4vw">
               <div class="card-body">
                 <div class="float-end text-muted">2009 - 2015</div>
-                <h4 class="card-title text-black">SDP Negeri Tulangampiang</h4>
+                <p class="card-title text-black fw-semibold fs-5">SDP Negeri Tulangampiang</p>
               </div>
             </div>
           </div>
