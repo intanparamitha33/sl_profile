@@ -13,20 +13,13 @@
 
     <link rel="stylesheet" type="text/css" href="/assets/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,800;1,900&display=swap" rel="stylesheet">
-
-    
 </head>
 <body>
     <nav class="navbar sticky-top bg-dark" data-bs-theme="dark">
-        <div class="container-fluid">
-          {{-- <a class="navbar-brand" href="#">Navbar</a> --}}
-          {{-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav"> --}}
+        <div class="container-fluid d-flex">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" style="color: rgb(249, 225, 195)" href="#about-me">About Me</a>
+                <a class="nav-link active" aria-current="page" style="color: rgb(249, 225, 195)" href="#introduction">Introduction</a>
               </li>  
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" style="color: rgb(100, 194, 249)" href="#hobbies">Hobbies</a>
@@ -37,11 +30,10 @@
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" style="color: rgb(255, 225, 125)" href="#experiences">Experiences</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" style="color: rgb(255, 116, 211)" href="#lovers">Lovers</a>
-              </li>
+              {{-- <li class="nav-item">
+                <a class="nav-link active" aria-current="page" style="color: rgb(255, 116, 211)" href="#others">Others</a>
+              </li> --}}
             </ul>
-          {{-- </div> --}}
         </div>
       </nav>
     
@@ -61,13 +53,13 @@
         </div>
     </div>
 
-    <div id="about-me">
+    <div id="introduction">
       <div class="line-container d-flex justify-content-around" style="margin: 3vw 0vw">
         <div class="line-1"></div>
       </div>
       <div class="intro-desc">
         <h2 class="fw-bold fst-italic text-center text-black py-1">
-          Some things
+          A few things
           <small class="text-body-secondary" style="opacity: 50%">you need to know</small>
           About Me
         </h2>
@@ -232,7 +224,7 @@
       <div class="line-container d-flex justify-content-around" style="margin: 3vw 0vw">
         <div class="line-1"></div>
       </div>
-      <div class="hobbies-desc">
+      <div class="hobbies-desc pt-3">
         <h2 class="fw-bold fst-italic text-center text-white">
           <small class="text-body-secondary" style="opacity: 50%">When life gets tough,</small>
           <br>
@@ -275,14 +267,58 @@
     </div>
 
     <div id="skills">
+      <div class="line-container d-flex justify-content-around" style="margin: 3vw 0vw">
+        <div class="line-1"></div>
+      </div>
+      <h2 class="fw-bold fst-italic text-center text-black pt-3">
+        Some Skills 
+        <small class="text-body-secondary" style="opacity: 50%">that I got and learned</small>
+        <br>
+        <small class="text-body-secondary" style="opacity: 50%">from being</small>
+        a Computer Science student.
+      </h2>
+      <div class="skills-desc d-flex">
+        <div class="progress-container" style="width: 100%">
+          <div class="progress-1 d-flex flex-row align-items-center" style="margin-bottom: 2vw">
+            <div class="skills-logo d-flex justify-content-center" style="width: 45%">
+              <img src="assets/logo_php.png" alt="PHP Logo" style="height: 10vw">
+            </div>
+            <div class="progress" style="height: 2vw; width: 45%" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar bg-success" style="width: 10%">10%</div>
+            </div>
+          </div>
 
+          <div class="progress-2 d-flex flex-row align-items-center" style="margin-bottom: 2vw">
+            <div class="skills-logo d-flex justify-content-center" style="width: 45%">
+              <img src="assets/logo_python.png" alt="Python Logo" style="height: 9vw">
+            </div>
+            <div class="progress" style="height: 2vw; width: 45%" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar bg-info text-dark" style="width: 30%">30%</div>
+            </div>
+          </div>
+          
+          <div class="progress-3 d-flex flex-row align-items-center" style="margin-bottom: 2vw">
+            <div class="skills-logo d-flex justify-content-center" style="width: 45%">
+              <img src="assets/logo_mySql.png" alt="MySQL Logo" style="height: 10vw">
+            </div>
+            <div class="progress" style="height: 2vw; width: 45%" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar bg-warning text-dark" style="width: 65%">65%</div>
+            </div>
+          </div>
+
+          <div class="progress-4 d-flex flex-row align-items-center">
+            <div class="skills-logo d-flex justify-content-center" style="width: 45%">
+              <img src="assets/logo_html_js_css.png" alt="HTML-JS-CSS Logo" style="height: 9vw">
+            </div>
+            <div class="progress" style="height: 2vw; width: 45%" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar bg-danger" style="width: 80%">80%</div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <div id="experiences">
-
-    </div>
-
-    <div id="lovers">
 
     </div>
 </body>

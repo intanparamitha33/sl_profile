@@ -5,10 +5,6 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.container-fluid{
-    display: flex;
-}
-
 .navbar-nav{
     margin: auto;
     width: 80%;
@@ -17,7 +13,6 @@
 }
 
 .nav-item{
-    /* background-color: yellowgreen; */
     margin: 0.5vw;
     font-size: 1.3vw;
     font-weight: 600;
@@ -49,7 +44,7 @@
     justify-content: center;
 }
 
-#about-me{
+#introduction{
     background: linear-gradient(rgb(249, 225, 195), rgb(100, 194, 249));
     overflow-x: hidden;
 }
@@ -72,5 +67,10 @@
 
 #hobbies{
     background: linear-gradient(rgb(100, 194, 249), rgb(195, 139, 251));
+    overflow-x: hidden;
+}
+
+#skills{
+    background: linear-gradient(rgb(195, 139, 251), rgb(255, 225, 125));
     overflow-x: hidden;
 }
