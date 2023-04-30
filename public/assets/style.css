@@ -61,3 +61,7 @@
     background: linear-gradient(rgb(255, 178, 238), rgb(249, 213, 169));
     overflow-x: hidden;
 }
+
+.card:hover{
+    background: white;
+}
