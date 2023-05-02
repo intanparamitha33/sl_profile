@@ -52,6 +52,30 @@
     overflow-x: hidden;
 }
 
+#music{
+    background-color: rgba(255, 255, 255, 0);
+}
+
+#music:hover{
+    background-color: white;
+}
+
+#watch{
+    background-color: rgba(255, 255, 255, 0);
+}
+
+#watch:hover{
+    background-color: white;
+}
+
+#read{
+    background-color: rgba(255, 255, 255, 0);
+}
+
+#read:hover{
+    background-color: white;
+}
+
 #skills{
     background: linear-gradient(rgb(195, 139, 251), rgb(255, 178, 238));
     overflow-x: hidden;
@@ -60,8 +84,4 @@
 #experiences{
     background: linear-gradient(rgb(255, 178, 238), rgb(249, 213, 169));
     overflow-x: hidden;
-}
-
-.card:hover{
-    background: white;
 }

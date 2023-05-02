@@ -201,28 +201,34 @@
         {{-- Section Content --}}
         <div class="list-hobbies d-flex justify-content-around">
             {{-- Music --}}
-            <div class="card m-5 mt-4 p-3" style="background-color:rgba(255, 255, 255, 0); border: 0.15vw solid white; hover: bg-white">
-                <img src="assets/hobbies_music.jpg" class="card-img-top" alt="1st Hobby - Music">
-                <div class="card-body ">
-                    <h5 class="card-title fw-bold"><u>Music</u></h5>
-                    <p class="card-text" style="font-weight: 500">I love to sing, can play the guitar a bit, and really want to learn a lot of music instruments.</p>
-                </div>
+            <div id="music" class="card m-5 mt-4 p-3 border-light" style="border-width: 0.15vw">
+                <a href="#" class="text-black text-decoration-none">
+                    <img src="assets/hobbies_music.jpg" class="card-img-top" alt="1st Hobby - Music">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold"><u>Music</u></h5>
+                        <p class="card-text" style="font-weight: 500">I love to sing, can play the guitar a bit, and really want to learn a lot of music instruments.</p>
+                    </div>
+                </a>
             </div>
             {{-- Watching --}}
-            <div class="card m-5 mt-4 p-3" style="background-color:rgba(255, 255, 255, 0); border: 0.15vw solid white">
-                <img src="assets/hobbies_watching.png" class="card-img-top" alt="2nd Hobby - Watching">
-                <div class="card-body">
-                    <h5 class="card-title fw-bold"><u>Watching</u></h5>
-                    <p class="card-text" style="font-weight: 500">When I have free time, I like to watch action or fantasy movies.</p>
-                </div>
+            <div id="watch" class="card m-5 mt-4 p-3 border-light" style="border-width: 0.15vw">
+                <a href="#" class="text-black text-decoration-none">
+                    <img src="assets/hobbies_watching.png" class="card-img-top" alt="2nd Hobby - Watching">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold"><u>Watching</u></h5>
+                        <p class="card-text" style="font-weight: 500">When I have free time, I like to watch action or fantasy movies.</p>
+                    </div>
+                </a>
             </div>
             {{-- Reading --}}
-            <div class="card m-5 mt-4 p-3" style="background-color:rgba(255, 255, 255, 0); border: 0.15vw solid white">
-                <img src="assets/hobbies_reading.jpg" class="card-img-top" alt="3rd Hobby - Reading">
-                <div class="card-body">
-                    <h5 class="card-title fw-bold"><u>Reading</u></h5>
-                    <p class="card-text" style="font-weight: 500">Loved many of Tere Liye's works. Still love the analysis in Sherlock Holmes and Conan.</p>
-                </div>
+            <div id="read" class="card m-5 mt-4 p-3 border-light" style="border-width: 0.15vw">
+                <a href="#" class="text-black text-decoration-none">
+                    <img src="assets/hobbies_reading.jpg" class="card-img-top" alt="3rd Hobby - Reading">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold"><u>Reading</u></h5>
+                        <p class="card-text" style="font-weight: 500">Loved many of Tere Liye's works. Still love the analysis in Sherlock Holmes and Conan.</p>
+                    </div>
+                </a>
             </div>
         </div>
     </div>
