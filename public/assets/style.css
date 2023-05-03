@@ -117,6 +117,16 @@
     transition: 0.2s;
 }
 
+#action-list:hover{
+    background-color: silver;
+    transition: 0.2s;
+}
+
+#rom-list:hover{
+    background-color: #CD7F32;
+    transition: 0.2s;
+}
+
 #skills{
     background: linear-gradient(rgb(195, 139, 251), rgb(255, 178, 238));
     overflow-x: hidden;

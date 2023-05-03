@@ -223,7 +223,7 @@
             </div>
             {{-- Reading --}}
             <div id="read" class="card m-5 mt-4 p-3 border-light" style="border-width: 0.15vw">
-                <a href="#" class="text-black text-decoration-none">
+                <a href="/hobbies/reading" class="text-black text-decoration-none">
                     <img src="assets/hobbies_reading.jpg" class="card-img-top" alt="3rd Hobby - Reading">
                     <div class="card-body">
                         <h5 class="card-title fw-bold"><u>Reading</u></h5>

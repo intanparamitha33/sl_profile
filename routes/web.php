@@ -28,3 +28,6 @@ Route::get('/hobbies/music/details/{name}', [HobbiesController::class, 'musicDet
 
 Route::get('/hobbies/watching', [HobbiesController::class, 'watchingData']);
 Route::get('/hobbies/watching/details/{name}', [HobbiesController::class, 'watchingDetails']);
+
+Route::get('/hobbies/reading', [HobbiesController::class, 'readingData']);
+Route::get('/hobbies/reading/details/{name}', [HobbiesController::class, 'readingDetails']);

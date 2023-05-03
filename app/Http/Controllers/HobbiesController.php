@@ -61,4 +61,52 @@ class HobbiesController extends Controller
         }
         return view('hobbies.wdetails', compact('m_lists'));
     }
+
+    // Display list of books (before full description) on page Reading
+    public function readingData() {
+        $booksInfo = [
+            ['name' => 'Bulan', 'genre' => 'Fantasy', 'release' => 'March 12, 2015', 'desc' => 'Namanya Seli, usianya 15 tahun, kelas sepuluh. Dia sama seperti remaja yang lain. Menyukai hal yang sama, mendengarkan lagu-lagu yang sama, pergi ke gerai fast food, menonton serial drama, film, dan hal-hal yang disukai remaja.
+
+            Tetapi ada sebuah rahasia kecil Seli yang tidak pernah diketahui siapa pun. Sesuatu yang dia simpan sendiri sejak kecil. Sesuatu yang menakjubkan dengan tangannya.
+
+            Namanya Seli. Dan tangannya bisa mengeluarkan petir.', 'image' => 'fantasy_book.jpg'],
+            ['name' => 'Pulang', 'genre' => 'Action', 'release' => 'October 1, 2015', 'desc' => '"Aku tahu sekarang, lebih banyak luka di hati bapakku dibanding di tubuhnya. Juga mamakku, lebih banyak tangis di hati Mamak dibanding di matanya."
+
+            Sebuah kisah tentang perjalanan pulang, melalui pertarungan demi pertarungan, untuk memeluk erat semua kebencian dan rasa sakit."', 'image' => 'action_book.jpg'],
+            ['name' => 'Hujan', 'genre' => 'Romance', 'release' => 'January 28, 2016', 'desc' => 'Tentang persahabatan
+            Tentang cinta
+            Tentang perpisahan
+            Tentang melupakan
+            Tentang hujan', 'image' => 'rom_book.jpg']
+        ];
+        return view('hobbies.reading', compact('booksInfo'));
+    }
+
+    // Display information of selected book (by var name)
+    public function readingDetails($name) {
+        $bookDetails = [
+            ['name' => 'Bulan', 'genre' => 'Fantasy', 'release' => 'March 12, 2015', 'desc' => 'Namanya Seli, usianya 15 tahun, kelas sepuluh. Dia sama seperti remaja yang lain. Menyukai hal yang sama, mendengarkan lagu-lagu yang sama, pergi ke gerai fast food, menonton serial drama, film, dan hal-hal yang disukai remaja.
+
+            Tetapi ada sebuah rahasia kecil Seli yang tidak pernah diketahui siapa pun. Sesuatu yang dia simpan sendiri sejak kecil. Sesuatu yang menakjubkan dengan tangannya.
+
+            Namanya Seli. Dan tangannya bisa mengeluarkan petir.', 'image' => 'fantasy_book.jpg'],
+            ['name' => 'Pulang', 'genre' => 'Action', 'release' => 'October 1, 2015', 'desc' => '"Aku tahu sekarang, lebih banyak luka di hati bapakku dibanding di tubuhnya. Juga mamakku, lebih banyak tangis di hati Mamak dibanding di matanya."
+
+            Sebuah kisah tentang perjalanan pulang, melalui pertarungan demi pertarungan, untuk memeluk erat semua kebencian dan rasa sakit."', 'image' => 'action_book.jpg'],
+            ['name' => 'Hujan', 'genre' => 'Romance', 'release' => 'January 28, 2016', 'desc' => 'Tentang persahabatan
+            Tentang cinta
+            Tentang perpisahan
+            Tentang melupakan
+            Tentang hujan', 'image' => 'rom_book.jpg']
+        ];
+
+        $b_lists = [];
+
+        foreach ($bookDetails as $bdet) {
+            if ($bdet['name'] == $name) {
+                $b_lists = $bdet;
+            }
+        }
+        return view('hobbies.bdetails', compact('b_lists'));
+    }
 }
