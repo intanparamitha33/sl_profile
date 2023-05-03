@@ -61,7 +61,11 @@
     transition: 0.2s;
 }
 
-#music-container{
+#hob-container{
+    background: linear-gradient(rgb(100, 194, 249), rgb(195, 139, 251));
+}
+
+#the-container{
     background: linear-gradient(rgb(100, 194, 249), rgb(195, 139, 251));
 }
 
@@ -80,16 +84,27 @@
     transition: 0.2s;
 }
 
-#song-container{
-    background: linear-gradient(rgb(100, 194, 249), rgb(195, 139, 251));
-}
-
 #watch{
     background-color: rgba(255, 255, 255, 0);
 }
 
 #watch:hover{
     background-color: white;
+    transition: 0.2s;
+}
+
+#fantasy-list:hover{
+    background-color: gold;
+    transition: 0.2s;
+}
+
+#scifi-list:hover{
+    background-color: silver;
+    transition: 0.2s;
+}
+
+#comedy-list:hover{
+    background-color: #CD7F32;
     transition: 0.2s;
 }
 

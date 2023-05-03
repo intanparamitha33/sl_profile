@@ -3,7 +3,7 @@
 @section('title', 'Hobbies - Music')
 @section('content')
 
-<div id="music-container" class="d-flex p-5 justify-content-evenly">
+<div id="hob-container" class="d-flex p-5 justify-content-evenly">
     @foreach ($songsInfo as $sinfo)
         @if ($sinfo['genre'] == 'Pop')
             <a href="music/details/{{ $sinfo['name'] }}" class="m-3 d-flex w-25 h-50 rounded text-black text-decoration-none">

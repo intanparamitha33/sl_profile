@@ -213,7 +213,7 @@
             </div>
             {{-- Watching --}}
             <div id="watch" class="card m-5 mt-4 p-3 border-light" style="border-width: 0.15vw">
-                <a href="#" class="text-black text-decoration-none">
+                <a href="/hobbies/watching" class="text-black text-decoration-none">
                     <img src="assets/hobbies_watching.png" class="card-img-top" alt="2nd Hobby - Watching">
                     <div class="card-body">
                         <h5 class="card-title fw-bold"><u>Watching</u></h5>
