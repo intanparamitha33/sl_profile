@@ -58,6 +58,30 @@
 
 #music:hover{
     background-color: white;
+    transition: 0.2s;
+}
+
+#music-container{
+    background: linear-gradient(rgb(100, 194, 249), rgb(195, 139, 251));
+}
+
+#pop-list:hover{
+    background-color: gold;
+    transition: 0.2s;
+}
+
+#rnb-list:hover{
+    background-color: silver;
+    transition: 0.2s;
+}
+
+#classic-list:hover{
+    background-color: #CD7F32;
+    transition: 0.2s;
+}
+
+#song-container{
+    background: linear-gradient(rgb(100, 194, 249), rgb(195, 139, 251));
 }
 
 #watch{
@@ -66,6 +90,7 @@
 
 #watch:hover{
     background-color: white;
+    transition: 0.2s;
 }
 
 #read{
@@ -74,6 +99,7 @@
 
 #read:hover{
     background-color: white;
+    transition: 0.2s;
 }
 
 #skills{

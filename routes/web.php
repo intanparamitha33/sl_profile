@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth;
+use App\Http\Controllers\HobbiesController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,10 +15,14 @@ use Illuminate\Support\Facades\Auth;
 |
 */
 
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
 Route::get('/', function () {
     return view('profile');
 });
 
-Auth::routes();
+Route::get('/hobbies/music', [HobbiesController::class, 'musicData']);
+Route::get('/hobbies/music/details/{name}', [HobbiesController::class, 'musicDetails']);
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

@@ -2,6 +2,7 @@
 
 @section('title', 'Profile')
 @section('content')
+
 {{-- Before Introduction --}}
 <div class="pre-intro d-flex align-items-center">
     <div class="photo-only">
@@ -159,7 +160,7 @@
             </h3>
             <p class="fw-semibold py-3" style="font-size: 1.2vw">Here is my individual and group projects.</p>
             <div class="carousel-container d-flex justify-content-center">
-                <div id="carouselExampleFade" class="carousel slide carousel-fade" style="width: 70%">
+                <div id="carouselExampleFade" class="carousel slide carousel-fade" style="width: 80%">
                     <div class="carousel-inner shadow p-3 mb-5 bg-body rounded">
                         <div class="carousel-item active">
                             <img src="assets/blib_project.png" class="d-block w-100" alt="B-Lib Project">
@@ -202,11 +203,11 @@
         <div class="list-hobbies d-flex justify-content-around">
             {{-- Music --}}
             <div id="music" class="card m-5 mt-4 p-3 border-light" style="border-width: 0.15vw">
-                <a href="#" class="text-black text-decoration-none">
+                <a href="/hobbies/music" class="text-black text-decoration-none">
                     <img src="assets/hobbies_music.jpg" class="card-img-top" alt="1st Hobby - Music">
                     <div class="card-body">
                         <h5 class="card-title fw-bold"><u>Music</u></h5>
-                        <p class="card-text" style="font-weight: 500">I love to sing, can play the guitar a bit, and really want to learn a lot of music instruments.</p>
+                        <p class="card-text" style="font-weight: 500">I love to sing, listen to music, and really want to learn a lot of music instruments.</p>
                     </div>
                 </a>
             </div>
@@ -335,4 +336,5 @@
         </ul>
     </div>
 </div>
+
 @endsection
