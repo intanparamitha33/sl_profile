@@ -6,6 +6,10 @@ Hello! My name is Intan Paramitha and this is my **Profile Page** for SL 05 assi
 
 This Profile page contains **Introduction**, **Hobbies**, **Skills**, and **Experiences**. Each section can be reached from the Navigation Bar. Aside from that, you might also find me on some social platforms that I have put in the Footer, we can become friends!
 
+
+![Gif Display Website](https://github.com/intanparamitha33/sl_profile/blob/sl_05/public/Website's%20Display/sl05_profile.gif)
+
+
 ### Introduction
 
 This section tells a few things you need to know about me, a short introduction in general and my goals. It also shows my **Education History** and my **Recent Works**. It's just some of my projects that I have worked on during college, both individual and group. I have **HiraBeats** for my individual work and for my group project, there are **FuGemy** and **B-Lib**.
