@@ -27,3 +27,14 @@ In this section, I wanted to show some of the hard skills that I got as a Comput
 ### Experiences
 
 Apart from academics, I want to continue trying to develop myself by participating in  organizational activities or events. So, this section shows some of my experiences participating on four events, such as **Charity Action of RTB 2023**, **RTB Gold Festival 2022**, **Egg-Venger Hunt Paskah 2022**, and **Multiple RTB Live Music 2022**.
+
+#### Display Full Page
+![Gambar Website Full Page](https://github.com/intanparamitha33/sl_profile/blob/master/website_display/sl_profile_webprogramming.png)
+
+### Additional page display
+![Music Section](https://github.com/intanparamitha33/sl_profile/blob/sl_05/public/Website's%20Display/music_section.png)
+![Music Section Details](https://github.com/intanparamitha33/sl_profile/blob/sl_05/public/Website's%20Display/mdetails_example.png)
+![Watching Section](https://github.com/intanparamitha33/sl_profile/blob/sl_05/public/Website's%20Display/watching_section.png)
+![Watching Section Details](https://github.com/intanparamitha33/sl_profile/blob/sl_05/public/Website's%20Display/wdetails_example.png)
+![Reading Section](https://github.com/intanparamitha33/sl_profile/blob/sl_05/public/Website's%20Display/reading_section.png)
+![Reading Section Details](https://github.com/intanparamitha33/sl_profile/blob/sl_05/public/Website's%20Display/rdetails_example.png)
