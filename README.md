@@ -2,10 +2,15 @@
 ## Ni Putu Intan Paramitha Marchila Audy Dewi
 ### PPTI 12 - 2502041281
 
-Hello! My name is Intan Paramitha and this is my **Profile Page** for SL 05 assignment. To complete SL 05 assignment in Laravel, I have already implemented Template Blade, Controller, Route, If-Else, For Each, and Bootstrap.
+Hello! My name is Intan Paramitha and this is my **Profile Page** for SL 05 assignment. To complete SL 05 assignment in Laravel, I have already implemented:
+*Template Blade
+*Controller
+*Route
+*If-Else
+*For Each
+*Bootstrap (CSS Framework).
 
 This Profile page contains **Introduction**, **Hobbies**, **Skills**, and **Experiences**. Each section can be reached from the Navigation Bar. Aside from that, you might also find me on some social platforms that I have put in the Footer, we can become friends!
-
 
 ![Gif Display Website](https://github.com/intanparamitha33/sl_profile/blob/sl_05/public/Website's%20Display/sl05_profile.gif)
 
